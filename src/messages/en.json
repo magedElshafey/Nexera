@@ -1,0 +1,58 @@
+{
+  "SEO": {
+    "Home": {
+      "title": "Field Operations & Logistics Services | Nexera",
+      "description": "Nexera provides professional field operations, logistics services, and site management solutions with precision and reliability.",
+      "keywords": [
+        "field operations",
+        "logistics services",
+        "site management",
+        "industrial services",
+        "operations company"
+      ]
+    },
+    "About": {
+      "title": "About Nexera | Field Operations Experts",
+      "description": "Learn more about Nexera, a leading company in field operations, logistics, and industrial services.",
+      "keywords": [
+        "about nexera",
+        "operations company",
+        "logistics experts",
+        "industrial company"
+      ]
+    },
+    "Services": {
+      "title": "Our Services | Logistics & Field Operations",
+      "description": "Explore Nexera services including site management, logistics coordination, and field support solutions.",
+      "keywords": [
+        "logistics services",
+        "field services",
+        "site management services",
+        "operations solutions"
+      ]
+    },
+    "ServiceDetails": {
+      "title": "Service Details | Nexera",
+      "description": "Detailed overview of our professional field and logistics services tailored to your business needs.",
+      "keywords": [
+        "field service details",
+        "logistics solution",
+        "industrial services"
+      ]
+    },
+    "Blogs": {
+      "title": "Our Blogs | Nexera Blogs",
+      "description": "Discover Nexera Blogs and case studies in field operations and logistics services.",
+      "keywords": ["case studies", "logistics Blogs", "field operations Blogs"]
+    },
+    "Contact": {
+      "title": "Contact Nexera | Get in Touch",
+      "description": "Contact Nexera for professional field operations and logistics services.",
+      "keywords": [
+        "contact nexera",
+        "logistics company contact",
+        "field services contact"
+      ]
+    }
+  }
+}
