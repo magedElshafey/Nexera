@@ -119,7 +119,7 @@ export default function ServicesSection() {
     <section
       id="services-section"
       aria-labelledby="services-heading"
-      className="relative py-12 md:py-20 lg:py-24 overflow-hidden"
+      className="relative py-12 md:py-16 xl:py-18 overflow-hidden"
     >
       {/* 🔥 Dynamic Background */}
       <AnimatePresence mode="wait">
@@ -136,7 +136,7 @@ export default function ServicesSection() {
         />
       </AnimatePresence>
 
-      <div className="container mx-auto px-4 max-w-6xl">
+      <div className="container mx-auto px-4 max-w-7xl">
         {/* Header */}
         <motion.header
           variants={safe(fadeUp)}
@@ -157,7 +157,7 @@ export default function ServicesSection() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-80px" }}
-          className="mt-20 grid gap-6 md:grid-cols-3"
+          className="mt-10 md:mt-12 grid gap-6 md:grid-cols-3"
         >
           {services.map((s, i) => {
             const Icon = s.icon;
@@ -222,7 +222,7 @@ export default function ServicesSection() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          className="mt-16 flex justify-center"
+          className="mt-10 md:mt-12 flex justify-center"
         >
           <Link href="/services">
             <Button size="lg" variant="accent">

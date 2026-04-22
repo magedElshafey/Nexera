@@ -36,7 +36,7 @@ export default function HeroSection() {
   return (
     <section
       ref={ref}
-      className="relative overflow-hidden py-12 md:py-20 xl:py-24"
+      className="relative overflow-hidden py-12 md:py-16 xl:py-18"
     >
       <GridBackground />
       <FloatingIcons />
