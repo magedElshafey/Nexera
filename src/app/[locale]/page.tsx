@@ -2,6 +2,10 @@ import { getTranslations } from "next-intl/server";
 import { generateSEO } from "@/lib/seo/metadata";
 import JsonLd from "@/common/seo/JsonLd";
 import { breadcrumbSchema, webPageSchema } from "@/lib/seo/schema";
+import HeroSection from "@/features/home/hero/Hero";
+import { Suspense } from "react";
+import HeroSkeleton from "@/features/home/hero/skeleton/HeroSkeleton";
+import ServicesSection from "@/features/home/sevices/ServicesSection";
 export async function generateMetadata({
   params,
 }: {
@@ -31,16 +35,10 @@ const page = async ({ params }: { params: Promise<{ locale: string }> }) => {
         ])}
       />
       <JsonLd data={webPageSchema(locale, "Home", "")} />
-
-      <div className="bg-background text-foreground">
-        <div className="bg-card border border-border p-6 rounded-2xl">
-          <h2 className="text-primary">Title</h2>
-
-          <button className="bg-primary text-primary-foreground px-4 py-2 rounded-xl">
-            Action
-          </button>
-        </div>
-      </div>
+      <Suspense fallback={<HeroSkeleton />}>
+        <HeroSection />
+      </Suspense>
+      <ServicesSection />
     </>
   );
 };

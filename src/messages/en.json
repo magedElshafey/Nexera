@@ -54,5 +54,70 @@
         "field services contact"
       ]
     }
+  },
+  "Navbar": {
+    "home": "home",
+    "about": "About us",
+    "blogs": "Blogs",
+    "contact": "Contact us",
+    "services": "Services"
+  },
+  "Hero": {
+    "title": "Smart Workforce Solutions for Every Industry",
+    "description": "Security, cleaning, maintenance, and more — all in one place.",
+    "cta": "Get Started",
+    "features": [
+      "Security Guarding",
+      "Self Security",
+      "O&M",
+      "HSE",
+      "Cleaning"
+    ],
+    "about": "About us",
+    "contact": "Contact us"
+  },
+  "Footer": {
+    "description": "Nexera provides professional workforce solutions including security, cleaning, and maintenance services.",
+    "company": "Company",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "servicesTitle": "Services",
+    "security": "Security Guarding",
+    "cleaning": "Cleaning",
+    "maintenance": "Maintenance",
+    "workforce": "Workforce Solutions",
+    "contactTitle": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms",
+    "rights": "All rights reserved"
+  },
+
+  "Services": {
+    "title": "Our Core Services",
+    "description": "Flexible workforce solutions designed to meet your operational needs with efficiency and reliability.",
+
+    "security": {
+      "title": "Security Guarding",
+      "desc": "Trained security personnel ensuring safety and protection across your facilities."
+    },
+    "cleaning": {
+      "title": "Cleaning Services",
+      "desc": "Professional cleaning teams delivering consistent quality and hygiene."
+    },
+    "maintenance": {
+      "title": "Maintenance",
+      "desc": "Skilled technicians for ongoing maintenance and operational support."
+    },
+    "retail": {
+      "title": "Retail Staffing",
+      "desc": "Qualified staff ready to support your retail and supermarket operations."
+    },
+    "staffing": {
+      "title": "Workforce Solutions",
+      "desc": "Flexible manpower solutions tailored to your business needs."
+    },
+    "readmore": "read more",
+    "viewAll": "View all services"
   }
 }
