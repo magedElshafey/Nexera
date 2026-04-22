@@ -204,7 +204,12 @@ export default function ServicesSection() {
 
                   {/* CTA */}
                   <div className="mt-auto pt-6">
-                    <Link href={`/services/${s.key}`}>
+                    <Link
+                      href={{
+                        pathname: "/services/[slug]",
+                        params: { slug: s.key }
+                      }}
+                    >
                       <Button variant={isFeatured ? "primary" : "ghost"}>
                         {t("readmore")}
                       </Button>
