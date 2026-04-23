@@ -163,6 +163,13 @@
     "success": "Message sent successfully",
     "error": "Something went wrong",
     "Form": {
+      "ai": {
+        "nameReply": "Nice to meet you {name}! 👋 What's your email?",
+        "emailReply": "Got it 👍 What service are you interested in?",
+        "serviceReply": "Awesome choice 🚀 Tell me more about your project.",
+        "messageReply": "Perfect! Thanks for the details 🙌 We'll get back to you very soon.",
+        "success": "🚀 Your request has been sent successfully!"
+      },
       "name": {
         "question": "What’s your name?",
         "placeholder": "John Doe"

@@ -53,25 +53,42 @@ export default function ContactChat() {
 
   /* ---------------- FAKE AI ---------------- */
 
+  // const generateReply = (field: string, value: string) => {
+  //   switch (field) {
+  //     case "name":
+  //       return `Nice to meet you ${value}! 👋 What's your email?`;
+
+  //     case "email":
+  //       return `Got it 👍 What service are you interested in?`;
+
+  //     case "service":
+  //       return `Awesome choice 🚀 Tell me more about your project.`;
+
+  //     case "message":
+  //       return `Perfect! Thanks for the details 🙌 We'll get back to you very soon.`;
+
+  //     default:
+  //       return "";
+  //   }
+  // };
   const generateReply = (field: string, value: string) => {
     switch (field) {
       case "name":
-        return `Nice to meet you ${value}! 👋 What's your email?`;
+        return t("ai.nameReply", { name: value });
 
       case "email":
-        return `Got it 👍 What service are you interested in?`;
+        return t("ai.emailReply");
 
       case "service":
-        return `Awesome choice 🚀 Tell me more about your project.`;
+        return t("ai.serviceReply");
 
       case "message":
-        return `Perfect! Thanks for the details 🙌 We'll get back to you very soon.`;
+        return t("ai.messageReply");
 
       default:
         return "";
     }
   };
-
   /* ---------------- SEND MESSAGE ---------------- */
 
   const handleSend = async () => {
@@ -133,7 +150,7 @@ export default function ContactChat() {
           ...prev,
           {
             role: "ai",
-            content: "🚀 Your request has been sent successfully!",
+            content: t("ai.success"),
           },
         ]);
 
