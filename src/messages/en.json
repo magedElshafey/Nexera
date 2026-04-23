@@ -119,5 +119,92 @@
     },
     "readmore": "read more",
     "viewAll": "View all services"
+  },
+
+  "Why": {
+    "title": "Why Choose Nexera",
+    "description": "We don’t just provide services — we build reliable systems.",
+
+    "security": {
+      "title": "Trusted Security",
+      "desc": "Professional and trained guards.",
+      "long": "Our security teams are carefully selected and trained to ensure maximum safety and reliability."
+    },
+    "team": {
+      "title": "Strong Workforce",
+      "desc": "Skilled and scalable teams.",
+      "long": "We provide flexible manpower solutions tailored to your operations."
+    },
+    "speed": {
+      "title": "Fast Deployment",
+      "desc": "We move fast.",
+      "long": "Quick onboarding and fast response to your business needs."
+    },
+    "quality": {
+      "title": "Consistent Quality",
+      "desc": "Always high standards.",
+      "long": "We maintain strict quality control across all services."
+    }
+  },
+  "Stats": {
+    "clients": "Satisfied Clients",
+    "workers": "Active Workforce",
+    "support": "24/7 Support",
+    "satisfaction": "Client Satisfaction"
+  },
+  "Testimonials": {
+    "title": "Trusted by Industry Leaders",
+    "description": "We collaborate with world-class companies to deliver exceptional results.",
+    "trust": "Trusted by leading companies worldwide"
+  },
+  "Contact": {
+    "title": "Start a Conversation",
+    "description": "Tell us what you need and we’ll handle the rest.",
+    "success": "Message sent successfully",
+    "error": "Something went wrong",
+    "Form": {
+      "name": {
+        "question": "What’s your name?",
+        "placeholder": "John Doe"
+      },
+      "email": {
+        "question": "Your email address?",
+        "placeholder": "john@email.com"
+      },
+      "service": {
+        "question": "What service do you need?",
+        "placeholder": "Security, Cleaning or Maintenance"
+      },
+      "message": {
+        "question": "Tell us more about your request",
+        "placeholder": "Write your message..."
+      },
+      "next": "Next",
+      "prev": "Back",
+      "submit": "Send",
+      "sending": "Sending...",
+      "successMessage": "We’ll contact you soon 🚀",
+      "sendAnother": "Send another message"
+    },
+    "Info": {
+      "phone": "Phone",
+      "email": "Email",
+      "location": "Location"
+    },
+
+    "Errors": {
+      "name": {
+        "too_small": "Name must be at least 2 characters"
+      },
+      "email": {
+        "invalid": "Enter a valid email"
+      },
+      "service": {
+        "too_small": "Please select a service"
+      },
+      "message": {
+        "too_small": "Message must be at least 5 characters"
+      }
+    }
   }
 }

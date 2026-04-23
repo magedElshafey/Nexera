@@ -6,6 +6,13 @@ import HeroSection from "@/features/home/hero/Hero";
 import { Suspense } from "react";
 import HeroSkeleton from "@/features/home/hero/skeleton/HeroSkeleton";
 import ServicesSection from "@/features/home/sevices/ServicesSection";
+import WhyChooseUs from "@/features/home/why-us/WhyChooseUs";
+import { WhyChooseUsSkeleton } from "../../features/home/why-us/skeleton/WhyChooseUsSkeleton";
+import { ServicesSkeleton } from "@/features/home/sevices/skeleton/ServicesSkeleton";
+import TestimonialsSlider from "@/features/home/testimonials/trust-wall/TrustWall";
+import TestimonialsSection from "@/features/home/testimonials/TestimonialsSection";
+import ContactSection from "@/features/home/contact/ContactSection";
+import TestimonialsSectionSkeleton from "@/features/home/testimonials/skeleton/TestimonialsSectionSkeleton";
 export async function generateMetadata({
   params,
 }: {
@@ -38,7 +45,16 @@ const page = async ({ params }: { params: Promise<{ locale: string }> }) => {
       <Suspense fallback={<HeroSkeleton />}>
         <HeroSection />
       </Suspense>
-      <ServicesSection />
+      <Suspense fallback={<ServicesSkeleton />}>
+        <ServicesSection />
+      </Suspense>
+      <Suspense fallback={<WhyChooseUsSkeleton />}>
+        <WhyChooseUs />
+      </Suspense>
+      <Suspense fallback={<TestimonialsSectionSkeleton />}>
+        <TestimonialsSection />
+      </Suspense>
+      <ContactSection />
     </>
   );
 };

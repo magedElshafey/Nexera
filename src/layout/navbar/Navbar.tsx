@@ -49,7 +49,7 @@ export default function Navbar() {
       >
         <nav
           className={`
-            container mx-auto flex items-center justify-between px-4
+            container mx-auto max-w-7xl flex items-center justify-between px-4
             transition-all duration-300
             ${scrolled ? "py-2" : "py-4"}
           `}

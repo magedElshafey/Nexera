@@ -13,6 +13,7 @@ import Navbar from "@/layout/navbar/Navbar";
 import Footer from "@/layout/footer/Footer";
 import ThemeTransitionLayer from "@/features/theme/ThemeTransitionLayer";
 import RadialTransitionProvider from "@/providers/RadialTransitionProvider";
+import SplashProvider from "@/features/splash-screen/SplashProvider";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -57,18 +58,18 @@ export default async function RootLayout({
 
         <NextIntlClientProvider locale={locale} messages={messages}>
           <ThemeProvider>
-            {/* <ThemeTransitionLayer /> */}
             <RadialTransitionProvider>
-              <Navbar />
-              <main className="grow">{children}</main>
-              <Footer />
+              <SplashProvider>
+                <Navbar />
+                <main className="grow">{children}</main>
+                <Footer />
+                <Toaster
+                  position={locale === "ar" ? "top-right" : "top-left"}
+                  closeButton
+                  richColors
+                />
+              </SplashProvider>
             </RadialTransitionProvider>
-
-            <Toaster
-              position={locale === "ar" ? "top-right" : "top-left"}
-              closeButton
-              richColors
-            />
           </ThemeProvider>
         </NextIntlClientProvider>
       </body>

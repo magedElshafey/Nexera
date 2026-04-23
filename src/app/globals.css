@@ -60,3 +60,11 @@ button {
 .theme-switching * {
   transition: none !important;
 }
+
+.logo-glow {
+  transition: all 0.3s ease;
+}
+
+.logo-glow:hover {
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.15));
+}
