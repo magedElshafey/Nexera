@@ -116,14 +116,14 @@ export default function Footer() {
             © {new Date().getFullYear()} Nexera. {t("rights")}
           </span>
 
-          <div className="flex items-center gap-4">
+          {/* <div className="flex items-center gap-4">
             <Link href="/privacy" className="hover:text-primary transition">
               {t("privacy")}
             </Link>
             <Link href="/terms" className="hover:text-primary transition">
               {t("terms")}
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

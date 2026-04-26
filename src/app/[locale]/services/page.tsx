@@ -1,5 +1,5 @@
 import JsonLd from "@/common/seo/JsonLd";
-import ServicesLayout from "@/features/services/layout/ServicesLayout";
+
 import { generateSEO } from "@/lib/seo/metadata";
 import { breadcrumbSchema, webPageSchema } from "@/lib/seo/schema";
 import { getTranslations } from "next-intl/server";
