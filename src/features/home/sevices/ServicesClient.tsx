@@ -36,7 +36,7 @@ export default function ServicesClient({ data }: Props) {
         <ServiceHeader
           title={data.title}
           description={data.description}
-          safe={safe}
+          // safe={safe}
         />
 
         {/* Cards */}

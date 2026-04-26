@@ -212,6 +212,8 @@
       "message": {
         "too_small": "Message must be at least 5 characters"
       }
-    }
+    },
+    "or": "Or contact us through",
+    "orDesc": "Whether you have an inquiry or wish to start a new project, contact us through any means that suits you and we will be happy to respond to you."
   }
 }

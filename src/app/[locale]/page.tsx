@@ -9,10 +9,10 @@ import ServicesSection from "@/features/home/sevices/ServicesSection";
 import WhyChooseUs from "@/features/home/why-us/WhyChooseUs";
 import { WhyChooseUsSkeleton } from "../../features/home/why-us/skeleton/WhyChooseUsSkeleton";
 import { ServicesSkeleton } from "@/features/home/sevices/skeleton/ServicesSkeleton";
-import TestimonialsSlider from "@/features/home/testimonials/trust-wall/TrustWall";
 import TestimonialsSection from "@/features/home/testimonials/TestimonialsSection";
 import ContactSection from "@/features/home/contact/ContactSection";
 import TestimonialsSectionSkeleton from "@/features/home/testimonials/skeleton/TestimonialsSectionSkeleton";
+import ContactSectionSkeleton from "@/features/home/contact/skeleton/ContactSectionSkeleton";
 export async function generateMetadata({
   params,
 }: {
@@ -54,7 +54,9 @@ const page = async ({ params }: { params: Promise<{ locale: string }> }) => {
       <Suspense fallback={<TestimonialsSectionSkeleton />}>
         <TestimonialsSection />
       </Suspense>
-      <ContactSection />
+      <Suspense fallback={<ContactSectionSkeleton />}>
+        <ContactSection />
+      </Suspense>
     </>
   );
 };
