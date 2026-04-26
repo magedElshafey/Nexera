@@ -29,7 +29,10 @@ export default function ServicesClient({ data }: Props) {
   const safe = (v: any) => (shouldReduceMotion ? {} : v);
 
   return (
-    <section className="relative py-12 md:py-16 xl:py-18 overflow-hidden">
+    <section
+      id="services-section"
+      className="relative py-12 md:py-16 xl:py-18 overflow-hidden"
+    >
       <DynamicServiceBg services={data.services} active={active} />
 
       <div className="container mx-auto px-4 max-w-7xl">

@@ -12,8 +12,5 @@ export default async function HeroSection() {
     about: t("about"),
   };
 
-  // هنا تقدر تعمل data fetching عادي جدا
-  // const stats = await fetch(...)
-
   return <HeroClient data={data} />;
 }

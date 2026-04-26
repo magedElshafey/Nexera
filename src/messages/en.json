@@ -215,5 +215,57 @@
     },
     "or": "Or contact us through",
     "orDesc": "Whether you have an inquiry or wish to start a new project, contact us through any means that suits you and we will be happy to respond to you."
+  },
+  "AboutHero": {
+    "title": "Powering Reliable Workforce Solutions",
+    "description": "At Nexera, we deliver trained professionals and integrated services that keep your operations running smoothly, securely, and efficiently.",
+    "ctaPrimary": "Contact Us",
+    "ctaSecondary": "Our Services",
+    "badges": ["Security", "Cleaning", "Maintenance", "Operations", "HSE"]
+  },
+  "OurStory": {
+    "title": "Our Story",
+    "description": "From a simple idea to a powerful operations network."
+  },
+  "ServicesSnapshot": {
+    "title": "What We Do",
+    "description": "Integrated services designed to support and scale your operations."
+  },
+  "Team": {
+    "title": "Our Culture",
+    "description": "The principles that drive our people and operations."
+  },
+  "CTA": {
+    "title": "Ready to Elevate Your Operations?",
+    "description": "Partner with Nexera to build reliable, scalable, and efficient workforce solutions.",
+    "primary": "Get Started",
+    "secondary": "Explore Services"
+  },
+  "teamCulture": {
+    "title": "Built on Discipline. Driven by Systems.",
+    "description": "Nexera operates through structured systems, trained teams, and measurable performance — ensuring consistency, reliability, and operational excellence.",
+    "badge": "Operational Culture",
+    "values": [
+      {
+        "label": "Reliability",
+        "desc": "We deliver consistently."
+      },
+      {
+        "label": "Discipline",
+        "desc": "Structured and controlled execution."
+      },
+      {
+        "label": "Training",
+        "desc": "Continuous skill development."
+      },
+      {
+        "label": "Accountability",
+        "desc": "We take responsibility."
+      },
+      {
+        "label": "Efficiency",
+        "desc": "Optimized operations always."
+      }
+    ]
   }
 }

@@ -1,4 +1,8 @@
 import JsonLd from "@/common/seo/JsonLd";
+import CTASection from "@/features/about-us/cta/CTASection";
+import AboutHero from "@/features/about-us/hero/AboutHero";
+import OurStorySection from "@/features/about-us/our-story/OurStorySection";
+import TeamCultureSection from "@/features/about-us/team-culture/TeamCultureSection";
 import { generateSEO } from "@/lib/seo/metadata";
 import { breadcrumbSchema, webPageSchema } from "@/lib/seo/schema";
 import { getTranslations } from "next-intl/server";
@@ -36,6 +40,10 @@ const page = async ({ params }: { params: Promise<{ locale: string }> }) => {
         ])}
       />
       <JsonLd data={webPageSchema(locale, "About", "/about-us")} />
+      <AboutHero />
+      <OurStorySection />
+      <TeamCultureSection />
+      <CTASection />
     </>
   );
 };
