@@ -1,8 +1,12 @@
 import JsonLd from "@/common/seo/JsonLd";
+import ServicesLayout from "@/features/services/layout/ServicesLayout";
 import { generateSEO } from "@/lib/seo/metadata";
 import { breadcrumbSchema, webPageSchema } from "@/lib/seo/schema";
 import { getTranslations } from "next-intl/server";
+import { services } from "@/features/home/sevices/data/services.data";
+import ServicesHero from "@/features/services/hero/ServicesHero";
 
+import ServicesGrid from "@/features/services/grid/ServicesGrid";
 export async function generateMetadata({
   params,
 }: {
@@ -30,6 +34,8 @@ const page = async ({ params }: { params: Promise<{ locale: string }> }) => {
         ])}
       />
       <JsonLd data={webPageSchema(locale, "Services", "/services")} />
+      <ServicesHero />
+      <ServicesGrid data={services} />
     </>
   );
 };

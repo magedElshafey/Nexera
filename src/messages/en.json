@@ -267,5 +267,11 @@
         "desc": "Optimized operations always."
       }
     ]
+  },
+  "ServicesHero": {
+    "title": "Solutions That Power Your Operations",
+    "description": "From security to facility management, Nexera delivers integrated services built on structure, training, and performance.",
+    "ctaPrimary": "Get Started",
+    "ctaSecondary": "Explore Services"
   }
 }
